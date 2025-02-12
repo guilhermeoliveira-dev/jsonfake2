@@ -64,6 +64,7 @@
     "pedidos": [
         {
             "id": 1,
+            "codigo": "20241113000000",
             "dataCriacao": "13-11-2024",
             "status": "finalizado",
             "valorTotal": 150,
@@ -82,6 +83,7 @@
         },
         {
             "id": 2,
+            "codigo": "20241113000001",
             "dataCriacao": "13-11-2024",
             "status": "entrega pendente",
             "valorTotal": 71.98,
@@ -91,6 +93,7 @@
         },
         {
             "id": 3,
+            "codigo": "20241113000002",
             "dataCriacao": "13-11-2024",
             "status": "pagamento pendente",
             "valorTotal": 17.98,
@@ -108,46 +111,7 @@
             }
         }
     ],
-    "cargos": [
-        {
-            "id": 1,
-            "nome": "Farmacêutico",
-            "permissoes": [
-                {
-                    "id": 1,
-                    "nome": "Cadastrar Produtos"
-                }
-            ]
-        },
-        {
-            "id": 2,
-            "nome": "Gerente",
-            "permissoes": [
-                {
-                    "id": 1,
-                    "nome": "Cadastrar Produtos"
-                },
-                {
-                    "id": 2,
-                    "nome": "Cadastrar Funcionarios"
-                }
-            ]
-        },
-        {
-            "id": 3,
-            "nome": "Administrador",
-            "permissoes": [
-                {
-                    "id": 2,
-                    "nome": "Cadastrar Funcionarios"
-                },
-                {
-                    "id": 3,
-                    "nome": "Cadastrar Farmacias"
-                }
-            ]
-        }
-    ],
+    
     "estoques": [
         {
             "id": 1,
