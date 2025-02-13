@@ -116,6 +116,10 @@
         {
             "id": 1,
             "quantidade": 10,
+            "fornecedor": {
+                "id": 1,
+                "nome": "Fornecedor A"
+            },
             "produto": {
                 "id": 1,
                 "nome": "Omega 3",
@@ -146,16 +150,19 @@
             "dataValidade": "30-02-2025",
             "farmacia": {
                 "id": 1,
-            "cnpj": "3123123123",
-            "nome": "Farmácia 1",
-            "email": "farmacianumero1@email.com",
-            "telefone": "4444-4444",
-            "endereco": "XD"
+                "cnpj": "3123123123",
+                "nome": "Tengo-Lengo",
+                "email": "tengo-lengo@email.com",
+                "telefone": "4444-4444"
             }
         },
         {
             "id": 2,
             "quantidade": 50,
+            "fornecedor": {
+                "id": 1,
+                "nome": "Fornecedor A"
+            },
             "produto": {
                 "id": 2,
                 "nome": "Sachê Whiskas",
@@ -186,16 +193,19 @@
             "dataValidade": "15-08-2025",
             "farmacia": {
                 "id": 1,
-            "cnpj": "3123123123",
-            "nome": "Farmácia 1",
-            "email": "farmacianumero1@email.com",
-            "telefone": "4444-4444",
-            "endereco": "XD"
+                "cnpj": "3123123123",
+                "nome": "Tengo-Lengo",
+                "email": "tengo-lengo@email.com",
+                "telefone": "4444-4444"
             }
         },
         {
             "id": 3,
             "quantidade": 34,
+            "fornecedor": {
+                "id": 1,
+                "nome": "Fornecedor A"
+            },
             "produto": {
                 "id": 3,
                 "nome": "Cloridrato de Propranolol",
@@ -226,16 +236,19 @@
             "dataValidade": "27-09-2025",
             "farmacia": {
                 "id": 1,
-            "cnpj": "3123123123",
-            "nome": "Farmácia 1",
-            "email": "farmacianumero1@email.com",
-            "telefone": "4444-4444",
-            "endereco": "XD"
+                "cnpj": "3123123123",
+                "nome": "Tengo-Lengo",
+                "email": "tengo-lengo@email.com",
+                "telefone": "4444-4444"
             }
         },
         {
             "id": 4,
             "quantidade": 21,
+            "fornecedor": {
+                "id": 1,
+                "nome": "Fornecedor A"
+            },
             "produto": {
                 "id": 3,
                 "nome": "Cloridrato de Propranolol",
@@ -265,12 +278,11 @@
             "dataFabricacao": "02-11-2024",
             "dataValidade": "27-10-2025",
             "farmacia": {
-               "id": 1,
-            "cnpj": "3123123123",
-            "nome": "Farmácia 1",
-            "email": "farmacianumero1@email.com",
-            "telefone": "4444-4444",
-            "endereco": "XD"
+                "id": 1,
+                "cnpj": "3123123123",
+                "nome": "Tengo-Lengo",
+                "email": "tengo-lengo@email.com",
+                "telefone": "4444-4444"
             }
         }
     ]
